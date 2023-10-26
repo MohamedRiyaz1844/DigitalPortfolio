@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // You can add your authentication logic here (e.g., checking against hardcoded values).
         if (username === 'riyaz' && password === 'password') {
             // Redirect to the desired page after successful login.
-            window.location.href = 'index.html'; // Change 'dashboard.html' to the desired URL.
+            window.location.href = 'website.html'; // Change 'dashboard.html' to the desired URL.
         } else {
             errorMessage.textContent = 'Invalid username or password. Please try again.';
         }
